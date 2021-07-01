@@ -1,0 +1,26 @@
+.react-responsive-modal-modal {
+  border-radius: 5px;
+  width: 500px;
+  background-color: whitesmoke;
+}
+
+.edit-book-form {
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      width: 60px;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      color: whitesmoke;
+      background-color: teal;
+    }
+  }
+}

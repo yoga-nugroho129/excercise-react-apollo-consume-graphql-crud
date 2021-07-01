@@ -1,0 +1,14 @@
+footer {
+  background-color: teal;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    color: whitesmoke;
+  }
+}

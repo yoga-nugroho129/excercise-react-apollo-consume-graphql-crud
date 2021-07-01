@@ -1,0 +1,31 @@
+.add-book-form {
+  width: 40%;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .input-group {
+    margin: 10px 0;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    button {
+      border: none;
+      width: 100px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #282846;
+      color: whitesmoke;
+      border-radius: 5px;
+      height: 35px;
+    }
+  }
+}

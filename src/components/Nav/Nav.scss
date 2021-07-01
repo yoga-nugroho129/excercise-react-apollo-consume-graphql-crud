@@ -1,0 +1,32 @@
+nav {
+  background-color: teal;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 8px 0;
+    font-weight: bold;
+    width: 100px;
+  }
+
+  .refresh-btn {
+    background-color: #f3f1f7;
+    color: rgb(56, 56, 56);
+  }
+}

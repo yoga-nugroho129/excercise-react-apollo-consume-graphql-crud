@@ -1,0 +1,62 @@
+.book-item {
+  -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 3.5px solid teal;
+
+  .top-section {
+    margin-bottom: 15px;
+  }
+
+  .label {
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .title-value {
+    font-size: 24px;
+  }
+
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+
+    .label-value {
+      font-size: 16px;
+    }
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+    button {
+      width: 60px;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      color: whitesmoke;
+
+      &:last-child {
+        margin-left: 5px;
+      }
+    }
+
+    .edit-btn {
+      background-color: #289672;
+    }
+
+    .delete-btn {
+      background-color: #fb3640;
+    }
+  }
+}
